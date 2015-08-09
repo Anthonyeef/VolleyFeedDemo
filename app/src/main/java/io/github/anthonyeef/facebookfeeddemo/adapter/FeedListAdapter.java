@@ -60,6 +60,7 @@ public class FeedListAdapter extends BaseAdapter{
         if (imageLoader == null)
             imageLoader = AppController.getInstance().getImageLoader();
 
+        /*initialize the view*/
 
         TextView name = (TextView) convertView.findViewById(R.id.name);
         TextView timestamp = (TextView) convertView.findViewById(R.id.timestamp);
