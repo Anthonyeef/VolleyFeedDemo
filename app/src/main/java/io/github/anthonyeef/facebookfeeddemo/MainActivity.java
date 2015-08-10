@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         if (entry != null) {
             /*try to get the data from cache*/
             try {
-                String data = new String(entry.data, "utf-8");
+                String data = new String(entry.data, "UTF-8");
                 try {
                     parseJsonFeed(new JSONObject(data));
                 } catch (JSONException e) {
